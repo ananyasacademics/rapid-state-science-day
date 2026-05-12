@@ -1,6 +1,6 @@
 Hospital Privacy Risk Simulation — Judge Summary
 
-Run ID: 20260311_181701
+Run ID: 20260314_081058
 Seed: 42
 Rows Generated: 10000
 Injected Anomalies: 500
