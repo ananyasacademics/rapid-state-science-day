@@ -1,20 +1,40 @@
-Hospital Privacy Risk Simulation — Judge Summary
+RAPID State Science Day Judge Summary
 
-Run ID: 20260314_081058
-Seed: 42
-Rows Generated: 10000
-Injected Anomalies: 500
-Predicted Anomalies: 2351
+Project:
+RAPID: Rule-Based Access Pattern Intrusion Detector
 
-Rule Engine Metrics
-TP: 399
-TN: 7548
-FP: 1952
-FN: 101
-Precision: 0.17
-Recall: 0.798
-F1: 0.28
-False Positive Rate: 0.205
+Purpose:
+RAPID evaluates rule-based hospital privacy anomaly detection using synthetic hospital access logs.
 
-Baseline F1: 0.067
-Dataset Hash: 68d150e99613a0bd3249bc967d8d597e04cb9ca9a115a20ce21fb684c0e49f62
+Dataset:
+Total synthetic events: 10,000
+Injected anomalies: 500
+Detected anomalies: 460
+Random seed: 42
+
+Confusion Matrix:
+TP = 460
+FN = 40
+FP = 310
+TN = 9,190
+
+Metrics:
+Recall / Detection Rate = 92.0%
+Precision = 59.7%
+F1 Score = 72.4%
+False Positive Rate = 3.26%
+
+Sensitivity Analysis:
+5% anomaly prevalence: 500 injected, 460 detected, 92.0%
+2% anomaly prevalence: 200 injected, 176 detected, 88.0%
+
+Rules:
+R1: Excessive Access Frequency
+R2: After-Hours Activity
+R3: Cross-Department Access
+R4: Role-Action Mismatch
+
+System Features:
+Risk scoring enabled.
+Synthetic data only.
+No real hospital data or PHI used.

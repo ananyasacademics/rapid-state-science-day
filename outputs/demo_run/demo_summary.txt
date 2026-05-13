@@ -1,0 +1,34 @@
+RAPID State Demo Run Summary
+
+Project:
+RAPID: Rule-Based Access Pattern Intrusion Detector
+
+Purpose:
+This demo summary represents the State-aligned demonstration configuration for RAPID.
+
+Configuration:
+Random Seed: 42
+Synthetic Events: 10000
+Injected Anomalies: 500
+
+Detection Rules:
+R1: Excessive Access Frequency
+R2: After-Hours Activity
+R3: Cross-Department Access
+R4: Role-Action Mismatch
+
+State-Aligned Results:
+Detected Anomalies: 460
+TP = 460
+FN = 40
+FP = 310
+TN = 9190
+
+Recall / Detection Rate = 92.0%
+Precision = 59.7%
+F1 Score = 72.4%
+False Positive Rate = 3.26%
+
+Risk scoring enabled.
+Synthetic data only.
+No real hospital data or PHI used.
