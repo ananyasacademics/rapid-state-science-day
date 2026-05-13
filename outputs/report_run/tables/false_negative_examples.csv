@@ -1,0 +1,3 @@
+Example Type,Description,Observation
+False Negative,Low-frequency insider access pattern did not exceed configured detection thresholds,Subtle or slow-moving misuse may remain difficult for rule-based systems to detect
+False Negative,Suspicious cross-department access occurred below configured alert frequency,Context-aware modeling could improve detection of subtle misuse

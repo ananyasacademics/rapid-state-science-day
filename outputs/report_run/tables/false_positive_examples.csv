@@ -1,0 +1,3 @@
+Example Type,Description,Observation
+False Positive,Emergency department physician accessed many patient records during a high-volume shift,Threshold-based systems may over-alert during busy clinical workflows
+False Positive,Nurse accessed multiple records during a legitimate urgent-care workflow,High activity can appear suspicious without clinical context

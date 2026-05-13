@@ -1,5 +1,11 @@
 Metric,Value
+Total Synthetic Events,10000
+Injected Anomalies,500
+Detected Anomalies,460
 Recall / Detection Rate,92.0%
 Precision,59.7%
 F1 Score,72.4%
 False Positive Rate,3.26%
+Random Seed,42
+Risk Scoring Enabled,Yes
+Synthetic Data Only,Yes

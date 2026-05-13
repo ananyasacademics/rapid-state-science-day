@@ -1,0 +1,6 @@
+Step,Pipeline Stage,Example Output
+1,Event Generated,Doctor accesses 27 patient records within a short time window
+2,Validation Passed,Schema structure and required fields successfully validated
+3,Rule Triggered,R1 Excessive Access Frequency rule activated
+4,Risk Classification Assigned,HIGH risk classification generated for suspicious behavior
+5,Detection Output Logged,Flagged event exported into the metrics and evaluation pipeline
