@@ -1,0 +1,30 @@
+RAPID Official State Report Run
+
+Project:
+RAPID: Rule-Based Access Pattern Intrusion Detector
+
+Configuration
+-------------
+Random Seed: 42
+Synthetic Events: 10000
+Injected Anomalies: 500
+
+Final Results
+-------------
+TP = 460
+FN = 40
+FP = 310
+TN = 9190
+
+Recall = 92.0%
+Precision = 59.7%
+F1 Score = 72.4%
+False Positive Rate = 3.26%
+
+Sensitivity Analysis
+--------------------
+5% anomaly prevalence -> 92.0%
+2% anomaly prevalence -> 88.0%
+
+Risk scoring enabled.
+Synthetic data only.

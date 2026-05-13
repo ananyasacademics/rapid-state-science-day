@@ -1,0 +1,22 @@
+{
+  "project": "RAPID: Rule-Based Access Pattern Intrusion Detector",
+  "repository_version": "State Science Day",
+  "random_seed": 42,
+  "synthetic_events": 10000,
+  "injected_anomalies": 500,
+  "detected_anomalies": 460,
+  "confusion_matrix": {
+    "tp": 460,
+    "fn": 40,
+    "fp": 310,
+    "tn": 9190
+  },
+  "metrics": {
+    "recall": "92.0%",
+    "precision": "59.7%",
+    "f1_score": "72.4%",
+    "false_positive_rate": "3.26%"
+  },
+  "risk_scoring_enabled": true,
+  "synthetic_data_only": true
+}
