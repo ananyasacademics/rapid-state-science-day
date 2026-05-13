@@ -1,0 +1,3 @@
+section,precision,recall,f1,false_positive_rate
+Rule Engine,0.17,0.798,0.28,0.205
+Baseline,0.05,0.1,0.067,0.1

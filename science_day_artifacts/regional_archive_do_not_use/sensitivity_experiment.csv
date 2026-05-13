@@ -1,0 +1,4 @@
+anomaly_rate,anomaly_count,precision,recall,f1,false_positive_rate
+0.05,50,0.177,0.68,0.281,0.166
+0.02,20,0.08,0.7,0.143,0.165
+0.01,10,0.036,0.6,0.067,0.165
