@@ -1,0 +1,21 @@
+timestamp,user_id,role,department,action,hour,rule_trigger,risk
+2026-01-15 08:12,U101,Doctor,ER,View Record,8,None,LOW
+2026-01-15 09:25,U204,Nurse,ICU,Update Record,9,None,LOW
+2026-01-15 10:03,U118,Doctor,Cardiology,View Record,10,None,LOW
+2026-01-15 11:40,U333,Admin,Billing,Export Records,11,None,LOW
+2026-01-15 12:18,U509,Technician,Radiology,View Record,12,None,LOW
+2026-01-15 13:50,U411,Nurse,Pediatrics,Update Record,13,None,LOW
+2026-01-15 14:27,U287,Doctor,Oncology,View Record,14,None,LOW
+2026-01-15 15:35,U612,Pharmacist,Pharmacy,Modify Prescription,15,None,LOW
+2026-01-15 16:48,U194,Doctor,ER,View Record,16,None,LOW
+2026-01-15 17:52,U250,Nurse,ICU,View Record,17,None,LOW
+2026-01-15 22:45,U731,Admin,Billing,Export Records,22,R2 After-Hours,HIGH
+2026-01-15 23:11,U812,Intern,Pharmacy,Modify Record,23,R4 Role Mismatch,MEDIUM
+2026-01-16 01:03,U620,Doctor,Cardiology,Bulk Access,1,R1 Excessive Access,HIGH
+2026-01-16 02:18,U477,Nurse,Oncology,Access Multiple Departments,2,R3 Cross-Department,HIGH
+2026-01-16 03:22,U903,Admin,HR,Export Records,3,R2 After-Hours,HIGH
+2026-01-16 04:47,U158,Intern,ER,Modify Prescription,4,R4 Role Mismatch,HIGH
+2026-01-16 09:31,U201,Doctor,Neurology,View Record,9,None,LOW
+2026-01-16 10:14,U350,Nurse,Pediatrics,Update Record,10,None,LOW
+2026-01-16 11:55,U422,Technician,Radiology,View Record,11,None,LOW
+2026-01-16 13:08,U610,Doctor,Oncology,View Record,13,None,LOW

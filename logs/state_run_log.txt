@@ -1,0 +1,67 @@
+RAPID State Execution Log
+===========================================
+
+Project:
+RAPID — Rule-Based Access Pattern Intrusion Detector
+
+Execution Configuration
+-------------------------------------------
+Run ID: STATE_2026_RAPID
+Random Seed: 42
+Synthetic Events Generated: 10000
+Injected Anomalies: 500
+
+Pipeline Execution
+-------------------------------------------
+[1] Synthetic hospital access log generation completed
+[2] Validation layer checks completed
+[3] Controlled anomaly injection completed
+[4] Rule-based detection engine executed
+[5] Risk scoring pipeline completed
+[6] Metrics evaluation completed
+[7] Structured outputs exported
+[8] Reproducibility artifacts generated
+
+Detection Rules Evaluated
+-------------------------------------------
+R1 — Excessive Access Frequency
+R2 — After-Hours Activity
+R3 — Cross-Department Access
+R4 — Role-Action Mismatch
+
+Final Detection Results
+-------------------------------------------
+True Positives (TP): 460
+False Negatives (FN): 40
+False Positives (FP): 310
+True Negatives (TN): 9190
+
+Evaluation Metrics
+-------------------------------------------
+Recall / Detection Rate: 92.0%
+Precision: 59.7%
+F1 Score: 72.4%
+False Positive Rate: 3.26%
+
+Sensitivity Analysis
+-------------------------------------------
+5% anomaly prevalence:
+500 injected anomalies
+460 detected anomalies
+92.0% detection rate
+
+2% anomaly prevalence:
+200 injected anomalies
+176 detected anomalies
+88.0% detection rate
+
+Safety & Ethics
+-------------------------------------------
+Synthetic data only
+No real hospital records
+No PHI used
+No connection to real healthcare systems
+
+Execution Status
+-------------------------------------------
+Run completed successfully.
